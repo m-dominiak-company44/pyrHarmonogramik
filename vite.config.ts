@@ -4,7 +4,7 @@ import path from 'path';
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: '/pyrkon-44/',
+    base: '/pyrharmonogramik/',
     plugins: [react()],
     resolve: {
         alias: {

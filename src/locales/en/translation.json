@@ -3,7 +3,7 @@
     "product": {
         "hero": {
             "title": "Your finances under full control",
-            "subtitle": "Pyrkon 44 is a secure personal budget management app"
+            "subtitle": "PyrHarmonogramik is a secure personal budget management app"
         },
         "features": {
             "security": {
@@ -12,7 +12,7 @@
             },
             "plugins": {
                 "title": "Multi-platform availability",
-                "description": "Pyrkon 44 app is available for Android and Windows"
+                "description": "PyrHarmonogramik app is available for Android and Windows"
             },
             "openness": {
                 "title": "Open standards",
@@ -43,24 +43,24 @@
     },
     "privacy-policy": "Privacy Policy",
     "privacy": {
-        "title": "Pyrkon 44 Privacy Policy",
+        "title": "PyrHarmonogramik Privacy Policy",
         "subtitle": "Your financial data, your control",
         "introduction": {
             "title": "1. Introduction",
-            "content": "Pyrkon 44 is a personal finance management application that respects user privacy. This policy explains what data we collect and how we use it."
+            "content": "PyrHarmonogramik is a personal finance management application that respects user privacy. This policy explains what data we collect and how we use it."
         },
         "policy": {
             "title": "PRIVACY POLICY",
-            "appName": "Pyrkon 44",
+            "appName": "PyrHarmonogramik",
             "lastUpdated": "Last updated: {{date}}",
             "introduction": {
                 "title": "1. INTRODUCTION",
-                "content": "Welcome to Pyrkon 44 application (\"App\"), a personal finance management tool. This privacy policy describes how we collect, use, store, and protect your personal data when using our App.",
+                "content": "Welcome to PyrHarmonogramik application (\"App\"), a personal finance management tool. This privacy policy describes how we collect, use, store, and protect your personal data when using our App.",
                 "important": "IMPORTANT: All data entered into the App is stored exclusively on your device. The App does not transmit data to any external servers or share it with third parties."
             },
             "dataController": {
                 "title": "2. DATA CONTROLLER",
-                "content": "The data controller is Pyrkon 44, based in Poland."
+                "content": "The data controller is PyrHarmonogramik, based in Poland."
             },
             "dataTypes": {
                 "title": "3. TYPES OF DATA COLLECTED",
@@ -134,13 +134,13 @@
             },
             "contact": {
                 "title": "11. CONTACT",
-                "content": "For questions regarding the Privacy Policy, please contact the Pyrkon 44 team."
+                "content": "For questions regarding the Privacy Policy, please contact the PyrHarmonogramik team."
             },
             "confirmation": "By using the App, you confirm that you have read this Privacy Policy and accept its terms."
         }
     },
     "footer": {
-        "copyright": "© {{year}} Pyrkon 44. All rights reserved."
+        "copyright": "© {{year}} PyrHarmonogramik. All rights reserved."
     },
     "notfound": {
         "title": "Page Not Found",
