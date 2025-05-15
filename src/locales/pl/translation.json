@@ -2,39 +2,39 @@
     "home": "Strona główna",
     "product": {
         "hero": {
-            "title": "Twoje finanse pod pełną kontrolą",
-            "subtitle": "PyrHarmonogramik to bezpieczna aplikacja do zarządzania budżetem osobistym"
+            "title": "Uprość swoje doświadczenie na Pyrkonie",
+            "subtitle": "PyrHarmonogramik pomaga Ci zorganizować harmonogram festiwalu Pyrkon"
         },
         "features": {
-            "security": {
-                "title": "Bezpieczeństwo",
-                "items": ["Dane przechowywane lokalnie", "Ty decydujesz gdzie lądują Twoje dane finansowe"]
+            "import": {
+                "title": "Import CSV",
+                "items": ["Importuj harmonogram wydarzeń z CSV", "Łatwe wczytywanie danych"]
             },
-            "plugins": {
-                "title": "Dostępność na wielu platformach",
-                "description": "Aplikacja PyrHarmonogramik dostępna jest pod Androidem i Windowsem"
+            "filter": {
+                "title": "Zaawansowane filtrowanie",
+                "description": "Filtruj wydarzenia według typu, lokalizacji, czasu lub kategorii"
             },
-            "openness": {
-                "title": "Otwarte standardy",
-                "items": ["Eksport danych do CSV", "Przejrzyste raportowanie finansów"]
+            "personalization": {
+                "title": "Osobisty harmonogram",
+                "items": ["Stwórz swój własny plan wydarzeń", "Nigdy nie przegap ważnych wydarzeń"]
             },
             "keyFeatures": {
                 "title": "Kluczowe funkcje",
-                "budgetManagement": {
-                    "title": "Zarządzanie budżetem",
-                    "description": "Planuj i śledź swoje miesięczne budżety"
+                "csvProcessing": {
+                    "title": "Przetwarzanie CSV",
+                    "description": "Łatwo importuj i przetwarzaj dane o wydarzeniach"
                 },
-                "financialAnalysis": {
-                    "title": "Analiza finansów",
-                    "description": "Wizualizacje wydatków i oszczędności"
+                "filtering": {
+                    "title": "Inteligentne filtrowanie",
+                    "description": "Znajdź wydarzenia pasujące do Twoich zainteresowań"
                 },
-                "categories": {
-                    "title": "Kategorie",
-                    "description": "Kategoryzuj wydatki i przychody"
+                "scheduling": {
+                    "title": "Osobisty harmonogram",
+                    "description": "Stwórz własną oś czasu wydarzeń"
                 },
-                "dataExport": {
-                    "title": "Eksport danych",
-                    "description": "Eksportuj dane do CSV"
+                "eventList": {
+                    "title": "Lista wydarzeń",
+                    "description": "Przeglądaj pełny katalog wydarzeń"
                 }
             }
         },
@@ -44,99 +44,78 @@
     "privacy-policy": "Polityka Prywatności",
     "privacy": {
         "title": "Polityka Prywatności PyrHarmonogramik",
-        "subtitle": "Twoje dane finansowe, Twoja kontrola",
+        "subtitle": "Twoje dane, Twoja kontrola",
         "introduction": {
             "title": "1. Wprowadzenie",
-            "content": "PyrHarmonogramik to aplikacja do zarządzania finansami osobistymi, która szanuje prywatność użytkowników. Niniejsza polityka wyjaśnia jakie dane zbieramy i jak je wykorzystujemy."
+            "content": "PyrHarmonogramik to aplikacja stworzona z myślą o uczestnikach festiwalu fantastyki Pyrkon. Niniejsza polityka wyjaśnia jakie dane zbieramy i jak je wykorzystujemy."
         },
         "policy": {
             "title": "POLITYKA PRYWATNOŚCI",
             "appName": "PyrHarmonogramik",
             "lastUpdated": "Ostatnia aktualizacja: {{date}}",
+            "updateDate": "15 maja 2025",
             "introduction": {
                 "title": "1. WPROWADZENIE",
-                "content": "Witamy w aplikacji PyrHarmonogramik (\"Aplikacja\"), narzędziu do zarządzania finansami osobistymi. Polityka prywatności opisuje, w jaki sposób zbieramy, używamy, przechowujemy i chronimy Twoje dane osobowe podczas korzystania z naszej Aplikacji.",
-                "important": "WAŻNE: Wszystkie dane wprowadzane do Aplikacji są przechowywane wyłącznie na Twoim urządzeniu. Aplikacja nie przesyła danych do żadnych zewnętrznych serwerów ani nie udostępnia ich podmiotom trzecim."
+                "content": "Dziękujemy za korzystanie z aplikacji PyrHarmonogramik. Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób gromadzimy, wykorzystujemy i chronimy dane użytkowników naszej aplikacji, stworzonej z myślą o uczestnikach festiwalu Pyrkon.",
+                "important": "WAŻNE: Wszystkie dane są przechowywane wyłącznie na Twoim urządzeniu. Aplikacja nie przesyła danych do żadnych zewnętrznych serwerów ani nie udostępnia ich podmiotom trzecim."
             },
-            "dataController": {
-                "title": "2. ADMINISTRATOR DANYCH",
-                "content": "Administratorem danych jest PyrHarmonogramik z siedzibą w Polsce."
-            },
-            "dataTypes": {
-                "title": "3. RODZAJE ZBIERANYCH DANYCH",
-                "intro": "Nasza Aplikacja zbiera następujące rodzaje danych:",
-                "userEntered": "Dane wprowadzane przez użytkownika:",
+            "dataCollected": {
+                "title": "2. GROMADZONE DANE",
+                "intro": "PyrHarmonogramik jest aplikacją desktopową działającą lokalnie na urządzeniu użytkownika. Gromadzimy i przechowujemy następujące dane:",
+                "localData": "Dane przechowywane lokalnie:",
                 "items": [
-                    "Informacje o kontach finansowych (nazwa, saldo, waluta)",
-                    "Dane o transakcjach (kwota, kategoria, data, czas, opis)",
-                    "Informacje o kategoriach wydatków i dochodów",
-                    "Dane o płatnościach cyklicznych",
-                    "Etykiety transakcji",
-                    "Zdjęcia związane z transakcjami (jeśli dodane)"
+                    "Preferencje użytkownika (np. tryb jasny/ciemny, preferowany język)",
+                    "Dane z plików CSV z harmonogramem wydarzeń Pyrkonu, które użytkownik sam dostarcza",
+                    "Informacje o spersonalizowanym harmonogramie"
+                ],
+                "notCollected": "Aplikacja NIE gromadzi następujących danych:",
+                "notCollectedItems": [
+                    "Danych osobowych użytkownika",
+                    "Danych lokalizacyjnych",
+                    "Danych dotyczących użytkowania aplikacji",
+                    "Jakichkolwiek innych danych wysyłanych na zewnętrzne serwery"
                 ]
             },
-            "processingPurposes": {
-                "title": "4. CELE PRZETWARZANIA DANYCH",
-                "intro": "Przetwarzamy Twoje dane w następujących celach:",
+            "dataUsage": {
+                "title": "3. WYKORZYSTANIE DANYCH",
+                "intro": "Dane przechowywane lokalnie są używane wyłącznie w celu:",
                 "items": [
-                    "Umożliwienie korzystania z funkcji zarządzania finansami osobistymi",
-                    "Zapisywanie informacji o Twoich transakcjach i kontach finansowych",
-                    "Kategoryzacja i analiza wydatków i dochodów",
-                    "Zarządzanie płatnościami cyklicznymi",
-                    "Zapewnienie funkcji eksportu danych"
+                    "Zapewnienia prawidłowego działania aplikacji",
+                    "Zapamiętania preferencji użytkownika",
+                    "Wyświetlania spersonalizowanego harmonogramu wydarzeń"
                 ]
             },
-            "legalBasis": {
-                "title": "5. PODSTAWA PRAWNA PRZETWARZANIA",
-                "intro": "Podstawą prawną przetwarzania Twoich danych jest:",
-                "items": [
-                    "Wykonanie umowy (świadczenie usług w ramach Aplikacji)",
-                    "Twoja zgoda (w przypadku opcjonalnych funkcji)",
-                    "Uzasadniony interes administratora (poprawa funkcjonalności Aplikacji)"
-                ]
-            },
-            "retention": {
-                "title": "6. OKRES PRZECHOWYWANIA DANYCH",
-                "intro": "Dane są przechowywane do momentu:",
-                "items": [
-                    "Usunięcia konta przez użytkownika",
-                    "Usunięcia Aplikacji",
-                    "Wykonania operacji \"Usuń wszystkie dane\" dostępnej w ustawieniach Aplikacji"
-                ]
-            },
-            "storage": {
-                "title": "7. MIEJSCE PRZECHOWYWANIA DANYCH",
-                "content": "Wszystkie dane są przechowywane lokalnie na Twoim urządzeniu w pliku bazy danych SQLite (finance44.db). Aplikacja nie tworzy kopii zapasowych w chmurze ani nie synchronizuje danych z serwerami zdalnymi. Dane nie są przesyłane na zdalne serwery ani udostępniane osobom trzecim, chyba że samodzielnie zdecydujesz się na eksport danych."
-            },
-            "rights": {
-                "title": "8. TWOJE PRAWA",
-                "intro": "Jako użytkownik masz prawo do:",
-                "items": [
-                    "Dostępu do swoich danych (poprzez interfejs Aplikacji)",
-                    "Poprawiania danych (edycja danych w Aplikacji)",
-                    "Usunięcia danych (funkcja \"Usuń wszystkie dane\" w ustawieniach)",
-                    "Eksportu danych (funkcja \"Eksportuj dane\" w ustawieniach)"
-                ]
+            "dataSharing": {
+                "title": "4. UDOSTĘPNIANIE DANYCH",
+                "content": "Nie udostępniamy żadnych danych użytkownika stronom trzecim, ponieważ wszystkie dane są przechowywane wyłącznie lokalnie na urządzeniu użytkownika."
             },
             "security": {
-                "title": "9. BEZPIECZEŃSTWO DANYCH",
-                "intro": "Stosujemy odpowiednie środki techniczne, aby chronić Twoje dane, w tym:",
+                "title": "5. BEZPIECZEŃSTWO DANYCH",
+                "intro": "Bezpieczeństwo danych jest zapewnione poprzez:",
                 "items": [
-                    "Przechowywanie wszystkich danych wyłącznie lokalnie na Twoim urządzeniu",
-                    "Brak automatycznego przesyłania danych do zewnętrznych serwerów",
-                    "Brak jakiegokolwiek śledzenia zachowań użytkownika",
-                    "Korzystanie z bezpiecznych mechanizmów dostępu do bazy danych"
+                    "Brak przesyłania danych poza urządzenie użytkownika",
+                    "Przechowywanie wszystkich danych wyłącznie na urządzeniu użytkownika",
+                    "Dostęp do danych jest ograniczony do lokalnej instancji aplikacji"
+                ]
+            },
+            "rights": {
+                "title": "6. PRAWA UŻYTKOWNIKA",
+                "intro": "Jako użytkownik aplikacji PyrHarmonogramik masz prawo do:",
+                "items": [
+                    "Usunięcia wszystkich lokalnie przechowywanych danych poprzez odinstalowanie aplikacji",
+                    "Modyfikacji lub usunięcia plików CSV i spersonalizowanych harmonogramów w dowolnym momencie",
+                    "Zmiany preferencji aplikacji w ustawieniach"
                 ]
             },
             "changes": {
-                "title": "10. ZMIANY W POLITYCE PRYWATNOŚCI",
-                "content": "Zastrzegamy sobie prawo do wprowadzania zmian w Polityce Prywatności. O wszelkich zmianach będziemy informować poprzez aktualizację Aplikacji lub powiadomienie w Aplikacji."
+                "title": "7. ZMIANY W POLITYCE PRYWATNOŚCI",
+                "content": "Zastrzegamy sobie prawo do wprowadzania zmian w Polityce Prywatności. O wszelkich zmianach będziemy informować za pośrednictwem naszej strony internetowej lub w aktualizacjach aplikacji."
             },
             "contact": {
-                "title": "11. KONTAKT",
-                "content": "W przypadku pytań dotyczących Polityki Prywatności, prosimy o kontakt z zespołem PyrHarmonogramik."
+                "title": "8. KONTAKT",
+                "content": "W przypadku pytań dotyczących Polityki Prywatności, prosimy o kontakt z zespołem PyrHarmonogramik"
             },
-            "confirmation": "Korzystając z Aplikacji, potwierdzasz, że zapoznałeś się z niniejszą Polityką Prywatności i akceptujesz jej warunki."
+            "confirmation": "Korzystając z aplikacji PyrHarmonogramik, akceptujesz zasady określone w niniejszej Polityce Prywatności."
         }
     },
     "footer": {

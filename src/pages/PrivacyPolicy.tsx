@@ -31,63 +31,51 @@ export default function Privacy() {
                     <h2 className="mb-6 text-center text-3xl font-bold">{t('privacy.policy.title')}</h2>
                     <h3 className="mb-6 text-center text-2xl font-bold">{t('privacy.policy.appName')}</h3>
 
-                    <p className="mb-4">{t('privacy.policy.lastUpdated', { date: currentDate })}</p>
+                    <p className="mb-4">{t('privacy.policy.lastUpdated', { date: t('privacy.policy.updateDate') })}</p>
 
                     <h4 className="mb-4 mt-8 text-xl font-semibold">{t('privacy.policy.introduction.title')}</h4>
                     <p className="mb-4">{t('privacy.policy.introduction.content')}</p>
                     <p className="mb-4 font-bold">{t('privacy.policy.introduction.important')}</p>
 
-                    <h4 className="mb-4 mt-8 text-xl font-semibold">{t('privacy.policy.dataController.title')}</h4>
-                    <p className="mb-4">{t('privacy.policy.dataController.content')}</p>
-
-                    <h4 className="mb-4 mt-8 text-xl font-semibold">{t('privacy.policy.dataTypes.title')}</h4>
-                    <p className="mb-4">{t('privacy.policy.dataTypes.intro')}</p>
-                    <p className="mb-4">{t('privacy.policy.dataTypes.userEntered')}</p>
+                    <h4 className="mb-4 mt-8 text-xl font-semibold">{t('privacy.policy.dataCollected.title')}</h4>
+                    <p className="mb-4">{t('privacy.policy.dataCollected.intro')}</p>
+                    <p className="mb-4">{t('privacy.policy.dataCollected.localData')}</p>
                     <ul className="mb-4 list-disc pl-8">
-                        {t('privacy.policy.dataTypes.items', { returnObjects: true }).map((item: string, index: number) => (
+                        {t('privacy.policy.dataCollected.items', { returnObjects: true }).map((item: string, index: number) => (
                             <li key={index}>{item}</li>
                         ))}
                     </ul>
 
-                    <h4 className="mb-4 mt-8 text-xl font-semibold">{t('privacy.policy.processingPurposes.title')}</h4>
-                    <p className="mb-4">{t('privacy.policy.processingPurposes.intro')}</p>
+                    <p className="mb-4">{t('privacy.policy.dataCollected.notCollected')}</p>
                     <ul className="mb-4 list-disc pl-8">
-                        {t('privacy.policy.processingPurposes.items', { returnObjects: true }).map((item: string, index: number) => (
+                        {t('privacy.policy.dataCollected.notCollectedItems', { returnObjects: true }).map((item: string, index: number) => (
                             <li key={index}>{item}</li>
                         ))}
                     </ul>
 
-                    <h4 className="mb-4 mt-8 text-xl font-semibold">{t('privacy.policy.legalBasis.title')}</h4>
-                    <p className="mb-4">{t('privacy.policy.legalBasis.intro')}</p>
+                    <h4 className="mb-4 mt-8 text-xl font-semibold">{t('privacy.policy.dataUsage.title')}</h4>
+                    <p className="mb-4">{t('privacy.policy.dataUsage.intro')}</p>
                     <ul className="mb-4 list-disc pl-8">
-                        {t('privacy.policy.legalBasis.items', { returnObjects: true }).map((item: string, index: number) => (
+                        {t('privacy.policy.dataUsage.items', { returnObjects: true }).map((item: string, index: number) => (
                             <li key={index}>{item}</li>
                         ))}
                     </ul>
 
-                    <h4 className="mb-4 mt-8 text-xl font-semibold">{t('privacy.policy.retention.title')}</h4>
-                    <p className="mb-4">{t('privacy.policy.retention.intro')}</p>
-                    <ul className="mb-4 list-disc pl-8">
-                        {t('privacy.policy.retention.items', { returnObjects: true }).map((item: string, index: number) => (
-                            <li key={index}>{item}</li>
-                        ))}
-                    </ul>
-
-                    <h4 className="mb-4 mt-8 text-xl font-semibold">{t('privacy.policy.storage.title')}</h4>
-                    <p className="mb-4">{t('privacy.policy.storage.content')}</p>
-
-                    <h4 className="mb-4 mt-8 text-xl font-semibold">{t('privacy.policy.rights.title')}</h4>
-                    <p className="mb-4">{t('privacy.policy.rights.intro')}</p>
-                    <ul className="mb-4 list-disc pl-8">
-                        {t('privacy.policy.rights.items', { returnObjects: true }).map((item: string, index: number) => (
-                            <li key={index}>{item}</li>
-                        ))}
-                    </ul>
+                    <h4 className="mb-4 mt-8 text-xl font-semibold">{t('privacy.policy.dataSharing.title')}</h4>
+                    <p className="mb-4">{t('privacy.policy.dataSharing.content')}</p>
 
                     <h4 className="mb-4 mt-8 text-xl font-semibold">{t('privacy.policy.security.title')}</h4>
                     <p className="mb-4">{t('privacy.policy.security.intro')}</p>
                     <ul className="mb-4 list-disc pl-8">
                         {t('privacy.policy.security.items', { returnObjects: true }).map((item: string, index: number) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
+
+                    <h4 className="mb-4 mt-8 text-xl font-semibold">{t('privacy.policy.rights.title')}</h4>
+                    <p className="mb-4">{t('privacy.policy.rights.intro')}</p>
+                    <ul className="mb-4 list-disc pl-8">
+                        {t('privacy.policy.rights.items', { returnObjects: true }).map((item: string, index: number) => (
                             <li key={index}>{item}</li>
                         ))}
                     </ul>
